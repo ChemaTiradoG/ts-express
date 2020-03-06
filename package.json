@@ -10,9 +10,9 @@
     "typescript": "^3.1.1"
   },
   "devDependencies": {},
-  "scripts": {     
+  "scripts": {
     "tsc": "tsc",
-    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",   
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
     "prod": "tsc && node ./build/app.js"
   },
   "repository": {
